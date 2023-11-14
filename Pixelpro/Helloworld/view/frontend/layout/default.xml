@@ -9,11 +9,16 @@
 <body>
      <referenceBlock name="header.links">
          <block class="Pixelpro\Helloworld\Block\Link" name="add-new-header-link">
-             <arguments>
-     <argument name="label" xsi:type="string" translate="true">Helloworld</argument>
-     <argument name="path" xsi:type="string" translate="true">helloworld/index</argument>
-     
-     </arguments>
+            <arguments>
+                <argument name="label" xsi:type="string" translate="true">Helloworld</argument>
+                <argument name="path" xsi:type="string" translate="true">helloworld/index</argument>
+            </arguments>
+         </block>
+         <block class="Pixelpro\Helloworld\Block\Link" name="add-new-header-link">
+            <arguments>
+                <argument name="label" xsi:type="string" translate="true">Products</argument>
+                <argument name="path" xsi:type="string" translate="true">helloworld/products</argument>
+            </arguments>
          </block>
      </referenceBlock>
 </body>
